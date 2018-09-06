@@ -1,0 +1,25 @@
+Component 
+    Import string;
+
+    Int a;
+    Char b;
+    Short c;
+    Float d;
+    Double e;
+
+    Start:
+        a = 1;
+    End
+
+    Trigger: 1; SimpleEvent:
+        a =2;
+    End
+
+    Trigger: a+2-3*4/myfunction(3); complicatedconditionEvent:
+        a = 3;
+    End
+
+    myfunction(Int i) -> Int:
+        Return i+1;
+    End
+End

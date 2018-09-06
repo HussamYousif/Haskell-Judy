@@ -1,0 +1,24 @@
+Component
+
+myProc(Integer a) -> Integer:
+
+Break;
+Continue;
+Integer a = 1+1;
+
+While 1 :
+    Break;
+End
+
+a = 2;
+
+If a :
+    a = 3;
+End
+
+Return a;
+
+End
+
+End
+
